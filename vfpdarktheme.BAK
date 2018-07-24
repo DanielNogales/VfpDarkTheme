@@ -129,7 +129,7 @@ Endfunc
 Function SetDarkThemeEditorColors()
 Local lnLoop    As Integer;
 	, lcRegKey  As String;
-	, lcValue   As String
+	, lcValue   As String;
 	, regConst  As String
 
 Dimension aEditorColors[7, 3]

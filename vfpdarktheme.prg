@@ -2,13 +2,6 @@
 * Created by Daniel Nogales
 * ver 1.000 - 20/07/2018 
 *-----------------------------------------------------------------------------------
-*!* --------------------------------------------------------------------------------
-*!*	Inspiración para esta funcionalidad en Microsoft Visual FoxPro.
-*!*	https://myvfpblog.blogspot.com.ar/2008/03/vfp-editor-code-rtf2html-part-4.html
-*!* --------------------------------------------------------------------------------
-
-Set Asserts On
-Assert .F.
 
 Local pathExecution As String
 pathExecution = Left(Sys(16),Rat('\', Sys(16)))
