@@ -179,7 +179,7 @@ Return (oRegApi.SetRegKey(entry, regValue, keyPath, hkey, .T.) = 0)
 Function GetRegistryApi() AS Registry
 If Vartype(oRegApi) # 'O'
 	Public oRegApi AS Registry
-	Set Classlib To registry.vcx Alias MiRegistry Additive
+	Set Classlib To registry.vcx Alias LocalRegistry Additive
 	oRegApi = Createobject('registry')
 Endif
 Return oRegApi
